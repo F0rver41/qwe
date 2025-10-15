@@ -38,11 +38,12 @@ def update_clock():
     root.after(1000, update_clock)
 
 root = tk.Tk()
-root.title("Простые часы")
+root.title("Часы")
 
 canvas = tk.Canvas(root, width=300, height=300, bg='white')
 canvas.pack()
 
 update_clock()
+
 
 root.mainloop()
