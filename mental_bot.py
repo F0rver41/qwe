@@ -3,7 +3,7 @@ from telebot import types
 import random
 from datetime import datetime
 
-TOKEN = "7963082537:AAFrVbaI7Dkpb61uz2i-91EkLh9ABIEfk3E"
+TOKEN = "xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 bot = telebot.TeleBot(TOKEN)
 
 USER_MOOD = {}  # {user_id: [{"value": 1..5, "ts": "..."}]}
@@ -81,4 +81,5 @@ def back(msg):
 
 if __name__ == "__main__":
     print("Poshlo poehalo…")
+
     bot.polling(none_stop=True)
